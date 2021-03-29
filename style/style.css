@@ -340,3 +340,163 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
     color: #000000;
 }
+
+.services {
+    width: 100%;
+    padding-top: 120px;
+}
+
+.services__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 81px;
+    width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services__title-main--text {
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 25px;
+}
+
+.services__title-text {
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+}
+
+.services__offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services__offer {
+    position: relative;
+    width: 286px;
+    height: 178px;
+    margin-right: 155px;
+    margin-bottom: 85px;
+}
+
+.services__offer:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.services__offer-title {
+    color: #18191F;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.services__offer-desc {
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+}
+
+.services__offer-more {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 67px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0096FF;
+    background-image: url(../svg/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.services__more-link {
+    display: block;
+    width: 139px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    background-image: url(../svg/arrow-2.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-top: -4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: ;
+}
+
+.employees {
+    padding-top: 99px;
+
+}
+
+.employees__title {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;
+}
+
+.employees__card {
+    width: 273px;
+    height: 426px;
+}
+
+.employees__card-image {
+    width: 273px;
+    height: 338px;
+}
+
+.employees__card-text--names {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.376923px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    line-height: normal;
+}
+
+.employees__card-text--profession {
+    display: block;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.38px;
+    text-transform: uppercase;
+    color: #0096FF;
+}
+
+.employees__card-text--links {
+    display: flex;
+}
+
+.employees__card-text--link_facebook {
+    width: 8px;
+    height: 15px;
+    background-image: url(../images/facebookicon.png);
+}
+
+.employees__card-text--link_desc {
+    opacity: 0;
+    o
+}
