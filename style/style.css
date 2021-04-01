@@ -1135,3 +1135,47 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
 
 /* Стилизация about */
 
+.facts {
+    display: flex;
+    padding-bottom: 72px;
+}
+
+.facts__image-container {
+    width: 475px;
+    height: 355px;  
+}
+
+.facts__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-7deg);
+}
+
+.facts__text {
+    width: 571px;
+    margin-left: 86px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+}
+
+.facts__text-main--title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 64px;
+}
+
+.facts__text-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 64px;
+}
+
+.facts__text-desc {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
